@@ -8,7 +8,7 @@ public class Carro extends Veiculo implements Fretavel{
 	
 	@Override
 	public double calcularCustoFrete(double distanciaEmKm) {
-		return (distanciaEmKm * 0.45);
+		return (distanciaEmKm * 1.25);
 				
 	}
 
